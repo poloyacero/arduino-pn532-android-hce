@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation" app:startDestination="@+id/navigation_home">
+    <fragment android:label="@string/title_read" android:name="com.example.application.ui.home.HomeFragment" android:id="@+id/navigation_home"/>
+    <fragment android:label="@string/title_write" android:name="com.example.application.ui.dashboard.DashboardFragment" android:id="@+id/navigation_dashboard"/>
+    <fragment android:label="@string/title_scan" android:name="com.example.application.ui.notifications.NotificationsFragment" android:id="@+id/navigation_notifications"/>
+</navigation>

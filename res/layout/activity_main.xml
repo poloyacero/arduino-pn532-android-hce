@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llBody" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rlReadNFCTAG" android:background="@color/colorPrimary" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <ImageView android:id="@id/imgRead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@id/imgRead" android:layout_centerInParent="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgRead">
+                <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/titleRead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/str_read_title" />
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/str_read_description" android:layout_below="@id/titleRead" android:layout_marginStart="10.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlWriteNFCTAG" android:background="@color/colorPrimary" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <ImageView android:id="@id/imgWrite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@id/imgWrite" android:layout_centerInParent="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgWrite">
+                <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/titleWrite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/str_write_title" />
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/str_write_description" android:layout_below="@id/titleWrite" android:layout_marginStart="10.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlTapNFCTAG" android:background="@color/colorPrimary" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <ImageView android:id="@id/imgTap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@id/imgTap" android:layout_centerInParent="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgTap">
+                <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/titleTap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/str_tap_title" />
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/str_tap_description" android:layout_below="@id/titleTap" android:layout_marginStart="10.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
